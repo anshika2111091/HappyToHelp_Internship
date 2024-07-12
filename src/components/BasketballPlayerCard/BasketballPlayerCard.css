@@ -1,0 +1,65 @@
+.player-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin: 10px;
+   
+
+}
+
+.player-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.player-name {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.player-position {
+    color: #666;
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+.player-stats {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.player-stats p {
+    margin: 5px 0;
+    font-size: 1em;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .player-card {
+        padding: 10px;
+    }
+
+    .player-image {
+        width: 100px;
+        height: 100px;
+    }
+
+    .player-name {
+        font-size: 1.2em;
+    }
+
+    .player-position {
+        font-size: 1em;
+    }
+
+    .player-stats p {
+        font-size: 0.9em;
+    }
+}
